@@ -7,6 +7,7 @@ const API_URL = "https://api.openweathermap.org/data/2.5/weather";
 // Base source icon
 const API_URL_ICON = "http://openweathermap.org/img/wn/";
 
+const API_URL_THREE = "https://api.openweathermap.org/data/2.5/forecast/daily?q=&cnt=3"
 
 class API_WEATHER{
   constructor(city){
